@@ -1,4 +1,4 @@
-<div align="center" style="display:flex;justify-content:center; align-items:center;"><img src="static\media\sobre_el_proyecto\Capgemini-Logo.png" width="200"/><img src="static\media\sobre_el_proyecto\utn.png" width="200"/></div>
+
 
 # ✋ GetMeFive
 
