@@ -65,6 +65,6 @@ python manage.py migrate
 python manage.py test
 python manage.py runserver
 ```
-A continuación abra su navegador de preferencia e ingrese a la siguiente url http://127.0.0.1:8000/ si todo va bien debería visualizar la página principal.
+A continuación abra su navegador de preferencia e ingrese a la siguiente url http://127.0.0.1:7000/ si todo va bien debería visualizar la página principal.
 
 
