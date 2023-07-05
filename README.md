@@ -1,7 +1,3 @@
-
-
-# ✋ GetMeFive
-
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
@@ -10,25 +6,21 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
-## 🕹 Proyecto para Academia Python - Capgemini x UTN
+## 🕹 Proyecto Pagina web Py 
 
-### ✍ Descripción:
 
-Este proyecto fue realizado con una finalidad educativa para la Academia Python brindada por la empresa [Capgemini](https://www.capgemini.com/ar-es/) en colaboracion con la [UTN FRBA](https://www.frba.utn.edu.ar/), en el año 2022. El proyecto consiste en una pagina web que permite a los usuarios registrarse y loguearse, y poder jugar a contestar preguntas de distintos temas mediante la camara.
+🌐 Navegando por la plataforma:
+**Página Principal**: En esta sección mostramos los juegos que están disponibles para jugar. Es necesario que el usuario esté registrado y haya iniciado sesión para poder acceder a ellos.
 
-### 👀 Visitando la plataforma:
+**Tablero de Puntuaciones**: Aquí se exhibe una tabla con las puntuaciones más altas alcanzadas por los jugadores en la plataforma. Además, se ofrece la opción de filtrar los resultados según el nombre del jugador o la temática del juego.
 
-**Inicio**: En esta vista presentamos los juegos disponibles los cuales podran ser accedidos siempre y cuando el usuario se encuentre registrado y logueado.
+**Acerca de la Plataforma**: En esta sección encontrarás información adicional sobre el proyecto, incluyendo algunas capturas de pantalla que muestran los juegos en acción.
 
-**Puntuaciones**: En esta vista presentamos la tabla de puntuaciones maximas de todos los jugadores de la plataforma, con la posibilidad de filtrar la tabla de acuerdo al nombre de jugador o tematica.
+**Sección de Contacto**: En esta área encontrarás los datos de contacto de los creadores de la plataforma.
 
-**Sobre el proyecto**: En esta vista veras informacion extra sobre el proyecto asi como tambien vista previas del juego en funcionamiento
+**Unirse a la Comunidad**: Aquí tienes la oportunidad de registrarte y convertirte en miembro de esta emocionante comunidad.
 
-**Contacto**: Aqui podras encontrar informacion de contacto de los desarrolladores de la plataforma.
-
-**Registro**: Aqui podras registrarte y formar parte de esta gran comunidad.
-
-**Login**: En esta vista podras loguearte en el sistema lo que te permitira acceder a los juegos.
+**Iniciar Sesión**: Esta sección te permite ingresar al sistema con tus credenciales, lo cual es necesario para poder disfrutar de los juegos disponibles.
 
 ### 💻 Lanzar proyecto localmente:
 
@@ -75,5 +67,4 @@ python manage.py runserver
 ```
 A continuación abra su navegador de preferencia e ingrese a la siguiente url http://127.0.0.1:8000/ si todo va bien debería visualizar la página principal.
 
-### 👁️ Vista previa:
-![SegmentLocal](preview1.gif "segment")
+
