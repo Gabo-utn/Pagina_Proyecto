@@ -1,0 +1,52 @@
+{% extends 'home/base.html' %}
+{% load static %}
+{% block links %}
+<link rel="stylesheet" href="{% static 'home/css/index.css'%}">
+{% endblock %}
+
+{% block title %} Inicio {% endblock %}
+
+{% block contenido %}
+   <section class="welcome">
+      <h2>¡Bienvenido!</h2>
+      {% if user.is_authenticated %}
+         <h4>
+            ¡Hola {{ user.nombre }}!
+         </h4>
+      {% endif %}
+      <div class="welcome-logo">
+         <img src="{% static 'media/home/logo.png' %}" alt="Logo">
+      </div>
+   </section>
+
+   <section class="games">
+      <div class="title-games">
+         <h3>Nuestros juegos</h3>
+         <div class="title-line"></div>
+      </div>
+      
+      <div class="cards">
+         {% for tema in temas %}
+            <div class="card">
+               <div class="img-card">
+                  <img src="{% static 'media/game/' %}{{tema}}.jpg" alt="">
+               </div>
+               <div class="info-card">
+                  <div class="title-info">
+                     {{tema}}
+                  </div>
+                  <div class="line-card"></div>
+                  <div class="description-info">
+                     <p>Juego de preguntas y respuestas con tematica orientada en {{tema|lower}}, <br>¡Consigue responder la mayor cantidad de preguntas posibles y conviertete en el mejor jugador del mundo!</p>
+                  </div>
+                  {% if user.is_authenticated %}
+                     <a class="btn btn-game" href="game/loadGame/{{tema}}/">Jugar!</a>
+                  {% else %}
+                     <a class="btn btn-game" href="/login/">Jugar!</a>
+                  {% endif %}
+               </div>
+            </div>
+         {% endfor %}
+      </div>
+   </section>
+{% endblock %}
